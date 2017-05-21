@@ -1,0 +1,98 @@
+
+
+.nav.navbar-nav li a, .navbar-brand{
+	color: white;
+}
+
+.nav.navbar-nav li:hover{
+	color: black;
+	background: rgba(0,0,0,0.3) important!;
+}
+
+.navbar-default{
+	border-color: transparent;
+}
+
+.extra-margin{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body, html{
+	height: 100%;
+}
+
+.white-text, .navbar-header .navbar-brand{
+	color: white;
+}
+
+.navbar{
+	background-color: transparent;
+}
+
+.bg-cover{
+	 background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url('mountain.jpg');
+	 height: 100%;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+
+.maincontent{
+	position: relative;
+	top: 30%;
+}
+
+.jumbotron{
+	background-color:transparent !important;
+}
+
+.margintop{
+	margin-top: 50px;
+}
+
+.marginbottom{
+	margin-bottom: 20px;
+}
+
+.centercontent{
+	text-align: center;
+}
+
+.carousel {
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+
+.foot{
+	background-color: #d3d3d3;
+	padding: 50px;
+}
+
+.paddingside{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.img-circle , #icon{
+    border-radius: 50%;
+    border: 5px solid white;
+
+}
+
+.btnwhite{
+	border: 2px solid blue;
+	background-color: white;
+}
+
+
