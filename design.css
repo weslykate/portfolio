@@ -1,21 +1,56 @@
 
+.bar{
+	
+}
+
+.navbar.navbar-default li a:active{
+    background-color: yellow;
+}
+
+.navbar.affix {
+    position: fixed;
+    top:0px;
+    width:100%;
+    background-color:#4d4d4d;
+}
+
+.notsomargin{
+	margin-left: 150px;
+	margin-right: 150px;
+}
 
 .nav.navbar-nav li a, .navbar-brand{
 	color: white;
 }
 
-.nav.navbar-nav li:hover{
-	color: black;
-	background: rgba(0,0,0,0.3) important!;
+.nav.navbar-nav li a:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 3px;
+    border-bottom: 1px solid white;
 }
+
+.navbar-header{
+	padding-right: 10px;
+	padding-left: 25px;
+	border-radius: 4px;
+}
+
+.navbar-header .navbar-brand:hover{
+	border-radius: 4px;
+	background-color: rgba(255, 255, 255, 0.3);
+	color: white;
+	border-bottom: 1px solid white;
+}
+
 
 .navbar-default{
 	border-color: transparent;
 }
 
 .extra-margin{
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 180px;
+	margin-right: 180px;
 }
 
 body{
@@ -44,7 +79,7 @@ body, html{
 
 .maincontent{
 	position: relative;
-	top: 30%;
+	top: 35%;
 }
 
 .jumbotron{
@@ -75,8 +110,9 @@ body, html{
 
 
 .foot{
-	background-color: #d3d3d3;
+	background-color: #4d4d4d;
 	padding: 50px;
+	color: white;
 }
 
 .paddingside{
@@ -91,8 +127,16 @@ body, html{
 }
 
 .btnwhite{
-	border: 2px solid blue;
-	background-color: white;
+	margin-right: 5px;
+	border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white; 
 }
 
+.btnwhite:hover{
+    background-color: rgba(0, 102, 255, 0.3);
+    color: white;
+    border: 1px solid white; 
+}
 
