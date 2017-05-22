@@ -103,6 +103,7 @@ body, html{
 .carousel {
     border-radius: 5px 5px 5px 5px;
     overflow: hidden;
+    text-shadow: 5px;
 }
 
 .carousel-control.left, .carousel-control.right {
