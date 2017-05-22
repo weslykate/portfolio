@@ -10,7 +10,9 @@
 .navbar.affix {
     position: fixed;
     top:0px;
-    width:100%;
+    left: 0;
+    right: 0;
+    width:auto;
     background-color:#4d4d4d;
 }
 
@@ -140,3 +142,6 @@ body, html{
     border: 1px solid white; 
 }
 
+.hrgray{
+	background-color: black;
+}
