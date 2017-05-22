@@ -111,6 +111,10 @@ body, html{
    filter:none !important;
 }
 
+.carousel-inner .item {
+	height: 300px;
+}
+
 
 .foot{
 	background-color: #4d4d4d;
